@@ -3,7 +3,7 @@ import logo from "./logo.svg";
 import { Counter } from "./features/counter/Counter";
 import "./App.css";
 import StudyReactLinksTemplate from "./components/study_react_links/StudyReactLinksTemplate";
-
+import { TodoList } from "./components/todos/Todo";
 function App() {
   return (
     <div className="App">
@@ -13,6 +13,7 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        <TodoList />
         <StudyReactLinksTemplate />
       </header>
     </div>
